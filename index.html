@@ -6,9 +6,102 @@
     <title>Assignment Three</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script src="https://kit.fontawesome.com/ee103c8482.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <html data-theme="light"></html>
+
 </head>
-<body>
+<body class="font">
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100 py-[24px]">
+            <div class="navbar-start">
+              
+                <div class="flex items-center relative">
+                    <div class="bg-green-400 rounded-full w-[26px] h-[26px] lg:w-[40px] lg:h-[40px] text-center"><i class="fa-solid fa-arrow-right -rotate-45 lg:text-[25px] absolute top-[17px] left-[6px] lg:top-[18px] lg:left-[10px]"></i></div>
+                    <div> <a class="btn btn-ghost text-[34px] font-[800] lg:text-[64px]">Rinterio</a></div>
+                </div>
+           
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 ">
+                <li><a class="text-[18px] font-[600] text-[rgb(115,115,115)] hover:text-black duration-75">Home</a></li>
+                <li><a class="text-[18px] font-[600] text-[rgb(115,115,115)] hover:text-black duration-75">Services</a></li>
+                <li><a class="text-[18px] font-[600] text-[rgb(115,115,115)] hover:text-black duration-75">Portfolio</a></li>
+                <li><a class="text-[18px] font-[600] text-[rgb(115,115,115)] hover:text-black duration-75">Blogs</a></li>
+                <li><a class="text-[18px] font-[600] text-[rgb(115,115,115)] hover:text-black duration-75">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end lg:flex items-center space-x-5 hidden lg:visible">
+              <div class="relative">
+                <div class="bg-slate-300 rounded-full w-[40px] h-[40px]"><i class="fa-solid fa-magnifying-glass absolute top-[14px] left-[10px]"></i></div>
+              </div>
+              <div class="relative">
+                <div class="bg-slate-300 rounded-full w-[40px] h-[40px]"><i class="fa-solid fa-cart-shopping absolute top-[14px] left-[10px]"></i></div>
+              </div>
+
+            
+              <div class="relative">
+                <a class="btn bg-[rgb(171,239,95)] rounded-3xl  text-[18px] font-800 text-[rgb(28,28,28)] py-2 px-10">Book Consult
+                    <div class="bg-black rounded-full lg:w-[30px] lg:h-[30px] text-center ">
+                        <i class="fa-solid fa-arrow-right -rotate-45 lg:text-[18px] absolute  lg:top-[15px] left-[170px] text-white"></i>
+                    </div>
+                </a>
     
+              </div>
+            </div>
+            <div class="dropdown ml-[250px] lg:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+               
+            </div>
+        </div>
+
+        <!-- banner section -->
+
+         <div class="flex flex-col justify-center items-center mx-auto">
+        
+           <div class="w-[400px] ml-[100px] lg:ml-0">
+            <img src="assets/banner.png" alt="">
+           </div>
+           <div class="text-center w-[400px]  ml-[100px] lg:ml-0 space-y-4">
+            <h1 class="text-[32px] lg:text-7xl font-[800] text-[rgb(33,33,33)]">A barn house of this design has a <br> striking appearance</h1>
+            <p class="font-[500] text-[rgb(73,73,73)] mt-[20px] w-[400px] lg:w-full mx-auto">Modern Living, Made Simple. Browse our properties  with stunning designs, state-of-the-art amenities, and prime locations. Our customers have found their dream <br>homes with us. Let us help you find yours too!</p>
+            <div class="flex gap-12 items-center justify-center">
+                <a class="btn bg-[rgba(171,239,95,0.5)] rounded-3xl  text-[24px] font-800 text-[rgb(28,28,28)] py-2 px-[58px]">View Details
+                <i class="fa-solid fa-arrow-right -rotate-45 lg:text-[18px] text-black "></i>
+                </a>
+                </a>
+            </div>
+            
+           </div>
+            
+
+         </div>
+
+
+    </header>
+    <main class="container mx-auto">
+
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
