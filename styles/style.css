@@ -1,3 +1,6 @@
 .font{
     font-family: "Manrope", sans-serif;
 }
+.paper{
+    background: url(../assets/bg.jpg);
+}

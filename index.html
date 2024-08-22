@@ -17,12 +17,12 @@
 </head>
 <body class="font">
     <header class="container mx-auto">
-        <div class="navbar bg-base-100 py-[24px]">
+        <div class="navbar bg-base-100 py-[24px] ">
             <div class="navbar-start">
               
-                <div class="flex items-center relative">
-                    <div class="bg-green-400 rounded-full w-[26px] h-[26px] lg:w-[40px] lg:h-[40px] text-center"><i class="fa-solid fa-arrow-right -rotate-45 lg:text-[25px] absolute top-[17px] left-[6px] lg:top-[18px] lg:left-[10px]"></i></div>
-                    <div> <a class="btn btn-ghost text-[34px] font-[800] lg:text-[64px]">Rinterio</a></div>
+                <div class="flex items-center relative gap-4">
+                    <div class="bg-green-400 rounded-full w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] text-center"><i class="fa-solid fa-arrow-right -rotate-45 lg:text-[25px] absolute top-[17px] left-[6px] lg:top-[36px] lg:left-[10px]"></i></div>
+                    <div> <a class=" text-[34px] font-[800] lg:text-[64px]">Rinterio</a></div>
                 </div>
            
             </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="navbar-end lg:flex items-center space-x-5 hidden lg:visible">
               <div class="relative">
-                <div class="bg-slate-300 rounded-full w-[40px] h-[40px]"><i class="fa-solid fa-magnifying-glass absolute top-[14px] left-[10px]"></i></div>
+                <div class="bg-slate-300 rounded-full w-[40px] h-[40px]"><i class="fa-solid fa-magnifying-glass absolute top-[14px] left-[13px]"></i></div>
               </div>
               <div class="relative">
                 <div class="bg-slate-300 rounded-full w-[40px] h-[40px]"><i class="fa-solid fa-cart-shopping absolute top-[14px] left-[10px]"></i></div>
@@ -47,14 +47,14 @@
               <div class="relative">
                 <a class="btn bg-[rgb(171,239,95)] rounded-3xl  text-[18px] font-800 text-[rgb(28,28,28)] py-2 px-10">Book Consult
                     <div class="bg-black rounded-full lg:w-[30px] lg:h-[30px] text-center ">
-                        <i class="fa-solid fa-arrow-right -rotate-45 lg:text-[18px] absolute  lg:top-[15px] left-[170px] text-white"></i>
+                        <i class="fa-solid fa-arrow-right -rotate-45 lg:text-[18px] absolute  lg:top-[15px] left-[172px] text-white"></i>
                     </div>
                 </a>
     
               </div>
             </div>
-            <div class="dropdown ml-[250px] lg:hidden">
-                <div tabindex="0" role="button" class="btn btn-ghost ">
+            <div class="dropdown ml-[330px] lg:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost bg-white rounded-full shadow-lg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-5 w-5"
@@ -74,7 +74,7 @@
 
         <!-- banner section -->
 
-         <div class="flex flex-col justify-center items-center mx-auto">
+         <div class="grid grid-cols-1 mx-auto">
         
            <div class="w-[400px] lg:w-full ml-[100px] lg:ml-0 flex justify-center">
             <img src="assets/banner.png" alt=""> 
@@ -83,8 +83,8 @@
             <h1 class="text-[32px] lg:text-7xl font-[800] text-[rgb(33,33,33)]">A barn house of this design has a <br> striking appearance</h1>
             <p class="font-[500] text-[rgb(73,73,73)] mt-[20px] w-[400px] lg:w-full mx-auto">Modern Living, Made Simple. Browse our properties  with stunning designs, state-of-the-art amenities, and prime locations. Our customers have found their dream <br>homes with us. Let us help you find yours too!</p>
             <div class="flex gap-12 items-center justify-center">
-                <a class="btn bg-[rgba(171,239,95,0.5)] rounded-3xl  text-[24px] font-800 text-[rgb(28,28,28)] py-2 px-[58px]">View Details
-                <i class="fa-solid fa-arrow-right -rotate-45 lg:text-[18px] text-black "></i>
+                <a class="btn bg-[rgba(172,239,95,0.83)] rounded-3xl  text-[24px] font-800 text-[rgb(28,28,28)] py-2 px-[58px]">View Details
+                <div class="bg-green-600 w-[30px] h-[30px] rounded-full"><i class="fa-solid fa-arrow-right -rotate-45 text-[16px] lg:text-[18px] text-black "></i></div>
                 </a>
                 </a>
             </div>
@@ -97,11 +97,12 @@
 
     </header>
     <main class="my-[100px]">
-      <section class="bg-gray-100 px-4 py-14 w-full lg:w-full">
+      <!-- design -->
+      <section class="bg-gray-100 px-4 py-14 w-[600px] lg:w-full">
         <div class="container mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 space-x-32 ">
+          <div class="grid grid-cols-1 lg:grid-cols-2 lg:space-x-32 ">
             <div class=" relative">
-              <img class="lg:absolute hidden lg:visible -top-12 -left-20" src="assets/Vector.png" alt="">
+              <img class="absolute opacity-0 lg:opacity-65 -top-12 -left-20" src="assets/Vector.png" alt="">
               <div class="bg-white w-28 rounded-lg text-center mx-auto lg:mx-0">
          
                 <h3 class="font-semibold">
@@ -109,11 +110,11 @@
                   About Us
                 </h3>
               </div>
-              <h2 class="text-[22px] lg:text-[40px] font-[800] text-[rgb(33,33,33)]">We Design thoughtful, <br> liveable spaces</h2>
+              <h2 class="text-[22px] lg:text-[40px] font-[800] text-[rgb(33,33,33)] text-center lg:text-left">We Design thoughtful, <br> liveable spaces</h2>
               <br>
-              <p class="font-[600]">Our designs transform spaces into thoughtful environments where function meets beauty. We create spaces that reflect purpose and thoughtfulness, enhancing every experience.</p>
+              <p class="font-[600] text-center lg:text-left text-[rgb(73,73,73)]"> Our designs transform spaces into thoughtful environments where function meets beauty. We create spaces that reflect purpose and thoughtfulness, enhancing every experience.</p>
               <br>
-              <div class="flex items-center gap-4 bg-white  py-6 pl-4 rounded-xl ">
+              <div class="flex items-center gap-4 bg-white py-8  lg:py-6 pl-4 rounded-xl ">
                 <div><img src="assets/commercial.png" alt=""></div>
                 <div>
                   <h3 class="text-[20px] font-[800] text-[rgb(73.73,73)] mb-[10px]">Commercial</h3>
@@ -121,7 +122,7 @@
                 </div>
               </div>
               <br>
-              <div class="flex items-center gap-4 bg-white py-6 pl-4 rounded-xl">
+              <div class="flex items-center gap-4 bg-white lg:py-6 pl-4 rounded-xl py-8 ">
                 <div><img src="assets/residential.png" alt=""></div>
                 <div>
                   <h3 class="text-[20px] font-[800] text-[rgb(73.73,73)] mb-[10px]">Residential</h3>
@@ -130,20 +131,240 @@
   
               </div>
             </div>
-            <div class="">
-              <img class="" src="assets/Rectangle.png" alt="">
+            <div class="mt-[20px] lg:mt-0 ">
+              <img  src="assets/Rectangle.png" alt="">
             </div>
   
           </div>
         </div>
       </section>
-        
+
+      <!-- works -->
+
+      <section class="bg-gray-100 px-4 py-14 w-[600px] lg:w-full">
+        <div class="container mx-auto">
+          <div class="bg-white w-[180px] py-[10px] rounded-3xl text-center mx-auto ">
+         
+            <h3 class="font-semibold">
+              <i class="fa-solid fa-arrow-right"></i>
+              How we works
+            </h3>
+          </div>
+          <div class="text-center mx-auto space-y-3">
+            <h2 class="text-[22px] lg:text-[48px] font-[900] text-[rgb(33,33,33)]">Our Works Process</h2>
+            <p class="font-[600] text-[rgb(73,73,73)]">Our work process is a collaborative journey from concept to completion, ensuring every detail aligns with <br> your vision. With a streamlined and transparent process, we turn your ideas into reality</p>
+
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-4 lg:space-x-6 mt-[30px] space-y-6 lg:space-y-0">
+
+            <div class="bg-[rgb(231,193,211)] rounded-2xl">
+              <div class="p-[30px] space-y-3">
+                <img src="assets/concept.png" alt="">
+                <h3 class="text-2xl font-semibold mt-2">Concept</h3>
+             
+                <p class="font-[600] text-[rgb(73,73,73)]">In the concept stage, we explore ideas and possibilities, crafting a vision. We develop unique concepts, setting the stage for an inspiring design journey.</p>
+              </div>
+
+            </div>
+            <div class="bg-[rgb(239,218,110)] rounded-2xl">
+              <div class="p-[30px]  space-y-3">
+                <img src="assets/flow-chart.png" alt="">
+                <h3 class="text-2xl font-semibold mt-2">Design Process</h3>
+             
+                <p class="font-[600] text-[rgb(73,73,73)]">We follow a thoughtful and structured design process, ensuring creativity and functionality come together seamlessly.</p>
+              </div>
+
+            </div>
+
+            <div class="bg-[rgb(164,218,195)] rounded-2xl">
+              <div class="p-[30px]  space-y-3">
+                <img src="assets/vision.png" alt="">
+                <h3 class="text-2xl font-semibold mt-2">Supervision</h3>
+             
+                <p class="font-[600] text-[rgb(73,73,73)]">We provide hands-on supervision throughout the project to guarantee quality and timely delivery</p>
+              </div>
+
+            </div>
+
+            <div class="bg-[rgb(119,170,234)] rounded-2xl">
+              <div class="p-[30px]  space-y-3">
+                <img src="assets/budget-planning.png" alt="">
+                <h3 class="text-2xl font-semibold mt-2">Budget Planning</h3>
+             
+                <p class="font-[600] text-[rgb(73,73,73)]">Our budget planning ensures that your project is financially sound without compromising on quality or vision.</p>
+              </div>
+
+            </div>
+
+            
+          </div>
+
+        </div>
+      </section>
+
+      <!-- challange part -->
+
+      <!-- end -->
+
+      <section class="bg-gray-100 px-4 py-14 w-[600px] lg:w-full mt-20">
+        <div class="container mx-auto">
+          <div class="bg-[rgb(211,234,218)] w-[180px] py-[10px] rounded-3xl text-center mx-auto ">
+         
+            <h3 class="font-semibold">
+              <i class="fa-solid fa-arrow-right"></i>
+              Rinterio News
+             
+            </h3>
+          </div>
+          <div class="text-center mx-auto space-y-3">
+            <h2 class="text-[22px] lg:text-[48px] font-[900] text-[rgb(33,33,33)]">Read Our Articles and News</h2>
+            <p class="font-[600] text-[rgb(73,73,73)]">Read our articles and news for expert perspectives and exciting updates on our projects and achievements.Stay updated <br> with our latest insights read our articles and news for fresh ideas and industry trends.</p>
+
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 lg:space-x-6 mt-[30px] space-y-6 lg:space-y-0">
+            <div class="bg-white rounded-2xl">
+             <div class="space-y-3 p-6">
+              <img class="w-full rounded-2xl" src="assets/article1.png" alt="">
+              <div class="flex items-center gap-8">
+                <div class="flex items-center gap-3">
+                  <i class="fa-regular fa-calendar-days"></i>
+                  <p class="text-[rgb(73,73,73)] font-[600]">July14, 2024</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <i class="fa-regular fa-circle-user"></i>
+                  <p class="text-[rgb(73,73,73)] font-[600]">By Admin</p>
+                </div>
+              </div>
+              <h3  class="text-2xl font-bold text-[rgb(33,33,33)]">How to choose the furniture right <br> of your home.</h3>
+              <p class="text-[rgb(73,73,73)] font-[600]">Comfort is key, especially for furniture like <br> sofas, chairs, and beds.</p> 
+              <div class="flex items-center gap-4">
+                <h3 class="text-2xl font-bold text-[rgb(33,33,33)]" >Read More</h3>
+                <div class="bg-green-300 rounded-full w-[30px] h-[30px] text-center"><i class="fa-solid fa-arrow-right -rotate-45"></i></div>
+              </div>
+             </div>
 
 
+            </div>
 
+            <div class="bg-white rounded-2xl">
+              <div class="space-y-3 p-6">
+               <img class="w-full rounded-2xl" src="assets/article2.png" alt="">
+               <div class="flex items-center gap-8">
+                 <div class="flex items-center gap-3">
+                   <i class="fa-regular fa-calendar-days"></i>
+                   <p class="text-[rgb(73,73,73)] font-[600]">July14, 2024</p>
+                 </div>
+                 <div class="flex items-center gap-3">
+                   <i class="fa-regular fa-circle-user"></i>
+                   <p class="text-[rgb(73,73,73)] font-[600]">By Admin</p>
+                 </div>
+               </div>
+               <h3  class="text-2xl font-bold text-[rgb(33,33,33)]">How to choose the furniture right <br> of your home.</h3>
+               <p class="text-[rgb(73,73,73)] font-[600]">Comfort is key, especially for furniture like <br> sofas, chairs, and beds.</p> 
+               <div class="flex items-center gap-4">
+                 <h3 class="text-2xl font-bold text-[rgb(33,33,33)]" >Read More</h3>
+                 <div class="bg-green-300 rounded-full w-[30px] h-[30px] text-center"><i class="fa-solid fa-arrow-right -rotate-45"></i></div>
+               </div>
+              </div>
+ 
+ 
+            </div>
+
+            <div class="bg-white rounded-2xl">
+              <div class="space-y-3 p-6">
+               <img class="w-full rounded-2xl" src="assets/article3.png" alt="">
+               <div class="flex items-center gap-8">
+                 <div class="flex items-center gap-3">
+                   <i class="fa-regular fa-calendar-days"></i>
+                   <p class="text-[rgb(73,73,73)] font-[600]">July14, 2024</p>
+                 </div>
+                 <div class="flex items-center gap-3">
+                   <i class="fa-regular fa-circle-user"></i>
+                   <p class="text-[rgb(73,73,73)] font-[600]">By Admin</p>
+                 </div>
+               </div>
+               <h3  class="text-2xl font-bold text-[rgb(33,33,33)]">How to choose the furniture right <br> of your home.</h3>
+               <p class="text-[rgb(73,73,73)] font-[600]">Comfort is key, especially for furniture like <br> sofas, chairs, and beds.</p> 
+               <div class="flex items-center gap-4">
+                 <h3 class="text-2xl font-bold text-[rgb(33,33,33)]" >Read More</h3>
+                 <div class="bg-green-300 rounded-full w-[30px] h-[30px] text-center"><i class="fa-solid fa-arrow-right -rotate-45"></i></div>
+               </div>
+              </div>
+ 
+ 
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+      <br>
+      <section class="paper w-[600px] lg:w-full">
+       <div class="mx-auto p-20">
+
+        <div class="bg-[rgb(211,234,218)] w-[180px] py-[10px] rounded-3xl text-center mx-auto ">
+         
+          <h3 class="font-semibold">
+            <i class="fa-solid fa-arrow-right"></i>
+            Let's Connect
+           
+          </h3>
+        </div>
+        <div class="text-center mx-auto space-y-3">
+          <h2 class="text-[22px] lg:text-[48px] font-[900] text-[rgb(33,33,33)]">Let's Discuss Next Project</h2>
+          <p class="font-[600] text-[rgb(73,73,73)]">We handle your information with care, ensuring confidentiality and security throughout our process.</p>
+
+        </div>
+
+        <div class="lg:space-y-4 text-center flex flex-col justify-center items-center mt-[20px] space-y-4">
+          <div  class="flex flex-col items-center lg:flex-row lg:space-x-4 space-y-4">
+            <input  class="w-[500px] h-[60px] rounded-[40px] pl-[20px] outline-none" type="text" placeholder="First Name*">
+            <input class="w-[500px] h-[60px] rounded-[40px] pl-[20px] outline-none" type="text" placeholder="Last Name*">
+          </div >
+          <div class="flex flex-col lg:flex-row lg:space-x-4 space-y-4">
+            <input class="w-[500px] h-[60px] rounded-[40px] pl-[20px] outline-none" type="text" placeholder="Phone Number*">
+            <input class="w-[500px] h-[60px] rounded-[40px] pl-[20px] outline-none" type="text" placeholder="Email Address*">
+          </div>
+          <textarea class="w-[500px] rounded-[40px] pl-[20px] lg:pl-0 lg:rounded-none lg:w-[1000px] outline-none" name="" id="" placeholder="Write your message here" rows="10"></textarea>
+          <button class="text-xl font-bold gap-4 flex btn bg-[rgba(172,239,95,0.98)] rounded-3xl w-[500px] lg:w-[1000px]">Send Mail <div class="bg-black rounded-full w-[30px] h-[30px] text-white text-center"><i class="-rotate-45 fa-solid fa-arrow-right"></i></div></button>
+        </div>
+
+       </div>
+      </section>
     </main>
-    <footer>
+  
+    <footer class="footer footer-center bg-[rgb(28,28,28)] text-primary-content p-24 w-[600px] lg:w-full">
+      <div class="container mx-auto">
+        <aside class="space-y-8">
+          <div class="flex justify-center items-center gap-4">
+            <div class="bg-green-500 rounded-full w-[24px] h-[24px] text-black text-center"><i class="-rotate-45 fa-solid fa-arrow-right"></i></div>
+            <h2 class="text-5xl font-bold">Rinterio</h2>
 
+          </div>
+        
+          <p class=" font-bold text-center text-[rgb(115,115,115)] lg:text-[18px]">
+            Follow us on social media for the latest updates and inspiration!"
+            Have questions? Contact us at  or call .
+            Designed <br>with Creating spaces that inspire.
+          </p>
+          <ul class="lg:space-x-56 flex flex-col lg:flex-row justify-center space-y-5">
+            <li class="list-none inline"><a  class="text-xl">Home</a></li>
+            <li class="list-none inline"><a class ="text-xl">Services</a></li>
+            <li class="list-none inline"><a  class="text-xl">Portfolio</a></li>
+            <li class="list-none inline"><a class="text-xl">Blogs</a></li>
+            <li class="list-none inline"><a  class="text-xl">Contact Us</a></li>
+          </ul>
+
+          <div class="flex justify-center">
+            <button class="text-2xl font-bold gap-4 flex  btn bg-[rgba(172,239,95,0.98)] rounded-3xl">Book Consult <div class="bg-black rounded-full w-[30px] h-[30px] text-white text-center"><i class="-rotate-45 fa-solid fa-arrow-right"></i></div></button>
+          </div>
+
+        </aside>
+      </div>
+      
     </footer>
 </body>
 </html>
