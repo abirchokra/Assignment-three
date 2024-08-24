@@ -7,3 +7,8 @@
 .pera{
     font-size: 20px;
 }
+.team:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: .6s ease-in-out;
+}
